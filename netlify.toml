@@ -1,0 +1,18 @@
+# Netlify config for the rebuilt cabglass.co.nz (plain static site, no build step)
+[build]
+  publish = "."
+  command = ""
+
+# Redirects live in the _redirects file (www -> apex, old WordPress URLs -> new pages).
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

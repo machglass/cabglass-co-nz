@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Machinery cab illustration">
+<g fill="none" stroke="#ffffff" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+<rect x="60" y="270" width="380" height="60" rx="30" fill="rgba(0,0,0,0.35)"/>
+<circle cx="100" cy="300" r="18"/><circle cx="170" cy="300" r="18"/><circle cx="240" cy="300" r="18"/><circle cx="310" cy="300" r="18"/><circle cx="400" cy="300" r="18"/>
+<rect x="90" y="200" width="320" height="70" rx="6" fill="rgba(224,123,0,0.85)"/>
+<path d="M240 200 V90 H330 L360 130 V200 Z" fill="rgba(255,255,255,0.10)"/>
+<path d="M254 104 H322 L346 136 V186 H254 Z" fill="#cfe9f7" stroke="#ffffff"/>
+<line x1="300" y1="104" x2="300" y2="186" stroke-width="4"/>
+<path d="M410 215 L500 120 L590 170" stroke-width="16" stroke="#e07b00"/>
+<path d="M410 215 L500 120 L590 170" stroke-width="4"/>
+<path d="M590 170 L600 250 L560 270 L545 235 Z" fill="rgba(224,123,0,0.85)"/>
+</g>
+<path d="M266 116 l18 18 M290 116 l40 40" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+</svg>
